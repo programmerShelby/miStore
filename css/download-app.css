@@ -1,0 +1,55 @@
+/* 设置二维码盒子样式 */
+.app .qrcode{
+    /* display: none; */
+    width: 124px;
+    /* height: 148px; */
+    height: 0;
+    overflow: hidden;
+    line-height: 1;
+    background-color: #fff; 
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    position: absolute;
+    left: -40px;
+    transition: height 0.3s;
+}
+
+/* 当鼠标移入后展现弹出层 */
+.app-wrapper:hover>.app .qrcode{
+ /*    display: block; */
+    height: 148px;
+}
+
+/* 设置二维码图片样式 */
+.qrcode img{
+    width: 90px;
+    height: 90px;
+    margin: 17px;
+    margin-bottom: 10px;
+    
+}
+
+/* 设置span文字样式 */
+.app .qrcode span{
+    font-size: 14px;
+    color: black;
+}
+
+/* 为父元素app开启绝对定位 */
+.app{
+    position: relative;
+}
+/* 通过伪类设置小三角 */
+.app-wrapper:hover > .app::after{
+    width: 0;
+    height: 0;
+    content: '';
+    border: 8px solid transparent;
+    border-top: none;
+    border-bottom-color: #fff;
+    position: absolute;
+    bottom: -13px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}

@@ -10,6 +10,11 @@
 .topbar{
     font-size: 12px;
 }
+
+.topbar a:hover{
+    color: #fff;
+}
+
 /* 设置左侧导航条 */
 .service{
     float: left;
@@ -23,6 +28,7 @@
 
 .topbar li a{
     color: #b0b0b0;
+    display: block;
 }
 
 /* 设置顶部导航栏中斜杠样式 */
@@ -40,6 +46,11 @@
     background-color: rgb(66,66,66);
     text-align: center;
     margin-left: 27px;
+}
+
+.shop-cart a:hover{
+    background-color: #fff;
+    color: rgb(255,106,0);
 }
 
 /* 设置登录注册 */
