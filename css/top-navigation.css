@@ -1,0 +1,58 @@
+/* 设置外部容器 */
+.topbar-wrapper{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+}
+
+/* 设置整体顶部样式 */
+.topbar{
+    font-size: 12px;
+}
+/* 设置左侧导航条 */
+.service{
+    float: left;
+}
+
+/* 设置左侧导航条中字体内容 */
+.service li{
+    float: left;
+    
+}
+
+.topbar li a{
+    color: #b0b0b0;
+}
+
+/* 设置顶部导航栏中斜杠样式 */
+.topbar .line{
+    color: #424242;
+    margin: 0 7px;
+    font-size: 13px;
+}
+
+/* 设置购物车 */
+.shop-cart{
+    float: right;
+    width: 122px;
+    height: 40px;
+    background-color: rgb(66,66,66);
+    text-align: center;
+    margin-left: 27px;
+}
+
+/* 设置登录注册 */
+.info{
+    float: right;
+}
+
+/* 设置登陆注册内容 */
+.info li{
+    float: left;
+}
+
+
+.info li:last-child(){
+    background-color: #fff;
+}
