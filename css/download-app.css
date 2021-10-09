@@ -15,8 +15,8 @@
 }
 
 /* 当鼠标移入后展现弹出层 */
-.app-wrapper:hover>.app .qrcode{
- /*    display: block; */
+.app-wrapper:hover > .app .qrcode{
+    display: block;
     height: 148px;
 }
 
@@ -48,8 +48,8 @@
     border-top: none;
     border-bottom-color: #fff;
     position: absolute;
-    bottom: -13px;
     right: 0;
     left: 0;
+    bottom: 0;
     margin: 0 auto;
 }
