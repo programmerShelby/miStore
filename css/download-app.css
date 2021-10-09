@@ -12,6 +12,7 @@
     position: absolute;
     left: -40px;
     transition: height 0.3s;
+    z-index: 999;
 }
 
 /* 当鼠标移入后展现弹出层 */

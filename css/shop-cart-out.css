@@ -8,6 +8,7 @@
     left: -195px;
     overflow: hidden;
     transition: height 0.3s;
+    z-index: 999;
 }
 
 .shop-cart{
@@ -16,4 +17,5 @@
 
 .shop-cart:hover .out{
     height: 100px;
+    
 }
