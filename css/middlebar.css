@@ -8,6 +8,13 @@
 }
 
 
+.middlebar-wrapper{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    /* background-color: red; */
+}
+
 
 .middlebar .logo a img{
     height: 55px;
@@ -15,7 +22,8 @@
     margin: 21px 0;
 }
 .middlebar{
-    position: relative;
+/*     position: relative; */
+    height: 100px;
 }
 
 .middle-navigation{
