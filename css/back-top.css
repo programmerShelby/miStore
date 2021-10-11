@@ -1,0 +1,27 @@
+.back-top{
+    width: 26px;
+    height: 206px;
+    background-color: rgba(255, 255, 255, .4);
+    /* 开启固定定位 */
+    position: fixed;
+    bottom: 60px;
+    /* 开启固定定位后，将其设置为视口的50% */
+    right: 50%;
+    margin-right: -639px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+
+.back-top i{
+    width: 24px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .2);
+    border: 1px solid rgb(224, 224, 224);
+    border-top: none;
+}
+
+.back-top i:hover{
+    color: #FF6700;
+}
